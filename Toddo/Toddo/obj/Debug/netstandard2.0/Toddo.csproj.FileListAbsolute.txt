@@ -1,0 +1,15 @@
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\bin\Debug\netstandard2.0\Toddo.deps.json
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\bin\Debug\netstandard2.0\Toddo.dll
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\bin\Debug\netstandard2.0\Toddo.pdb
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.dll
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\refint\Toddo.dll
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\Toddo.pdb
+C:\Users\LENOVO\source\repos\Toddo\Toddo\Toddo\obj\Debug\netstandard2.0\ref\Toddo.dll

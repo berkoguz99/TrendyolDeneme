@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+           
+             x:Class="Toddo.MainPage"
+             BackgroundColor="#002B5B">
+
+    <StackLayout  VerticalOptions="FillAndExpand">
+        <Frame BackgroundColor="#57C5B6" Padding="20" CornerRadius="0">
+            <Label Text="People!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button x:Name="RefreshButton" Text="Refresh"/>
+        <syncfusion:SfDataGrid x:Name ="grid" AutoGenerateColumns="False" AllowSorting="True" AllowEditing="True" ItemsSource="{Binding TodoItems}" VerticalOptions="FillAndExpand"  ColumnSizer="Star">
+            <syncfusion:SfDataGrid.Columns>
+                <syncfusion:GridTemplateColumn MappingName="Name" HeaderText="Name" HeaderFontAttribute="Bold" HeaderCellTextSize="20" AllowEditing="True" >
+                    <syncfusion:GridTemplateColumn.CellTemplate>
+                        
+                        <DataTemplate>
+                            <StackLayout BackgroundColor="#002B5B" Padding="10">
+                                <Label Text="{Binding Name}" TextColor="#57C5B6" FontFamily="Arial" FontSize="14" VerticalOptions="Center" HorizontalOptions="Center" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </syncfusion:GridTemplateColumn.CellTemplate>
+                </syncfusion:GridTemplateColumn>
+
+                <syncfusion:GridTemplateColumn MappingName="LastName" HeaderText="Last Name" HeaderFontAttribute="Bold" HeaderCellTextSize="20" AllowEditing="True" >
+                    <syncfusion:GridTemplateColumn.CellTemplate>
+
+                        <DataTemplate>
+                            <StackLayout BackgroundColor="#002B5B" Padding="10">
+                                <Label Text="{Binding LastName}" TextColor="#57C5B6" FontFamily="Arial" FontSize="14" VerticalOptions="Center" HorizontalOptions="Center" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </syncfusion:GridTemplateColumn.CellTemplate>
+                </syncfusion:GridTemplateColumn>
+                <syncfusion:GridTemplateColumn MappingName="City" HeaderText="City" HeaderFontAttribute="Bold" HeaderCellTextSize="20" AllowEditing="True" >
+                    <syncfusion:GridTemplateColumn.CellTemplate>
+
+                        <DataTemplate>
+                            <StackLayout BackgroundColor="#002B5B" Padding="10">
+                                <Label Text="{Binding City}" TextColor="#57C5B6" FontFamily="Arial" FontSize="14" VerticalOptions="Center" HorizontalOptions="Center" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </syncfusion:GridTemplateColumn.CellTemplate>
+                </syncfusion:GridTemplateColumn>
+            </syncfusion:SfDataGrid.Columns>
+        </syncfusion:SfDataGrid>
+    </StackLayout>
+
+</ContentPage>
